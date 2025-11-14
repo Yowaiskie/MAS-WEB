@@ -1,0 +1,25 @@
+{
+  "name": "mas-web",
+  "version": "1.0.0",
+  "description": "Project files for MAS-WEB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./public/output.css --minify",
+    "watch:css": "tailwindcss -i ./src/css/input.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOWAISKIE/MAS-WEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YOWAISKIE/MAS-WEB/issues"
+  },
+  "homepage": "https://github.com/YOWAISKIE/MAS-WEB#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

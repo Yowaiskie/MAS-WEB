@@ -1,0 +1,29 @@
+# --------------------
+# 1. DEPENDENCIES & BUILD OUTPUTS (HINDI I-commit)
+# --------------------
+
+# Node modules (para sa Tailwind, etc.) - Ito ang pinakamalaking dapat i-ignore.
+node_modules/
+
+# Final CSS Output (Ang file na ginawa ng Tailwind)
+/public/output.css
+
+# PHP Composer dependency folder (kung gagamitin mo sa hinaharap)
+vendor/
+
+# --------------------
+# 2. SENSITIVE/LOCAL FILES
+# --------------------
+
+# Environment variables (para sa passwords/API keys)
+.env
+
+# --------------------
+# 3. OS & IDE SPECIFIC FILES
+# --------------------
+
+# Visual Studio Code (local settings lang)
+.vscode/
+
+# MacOS files
+.DS_Store
